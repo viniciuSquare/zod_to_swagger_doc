@@ -1,0 +1,3 @@
+- Create Zod schemas for Mongoose files
+- Add openapi metadata
+- Create document

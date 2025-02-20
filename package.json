@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.13.4",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "yaml": "^2.7.0",
+    "zod": "^3.24.2",
+    "zod-openapi": "^4.2.3"
+  }
+}

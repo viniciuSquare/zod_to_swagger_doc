@@ -1,0 +1,56 @@
+{  
+  "compilerOptions": {
+    "typeRoots": [
+      "@types"
+    ],
+    "moduleResolution": "Node",
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es6"
+    ],
+    "baseUrl": ".",
+    "allowJs": true,
+    "outDir": "build",
+    "rootDir": "src",
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@types": [
+        "src/types/index"
+      ],
+      "@controllers": [
+        "src/controllers/index"
+      ],
+      "@middleware": [
+        "src/middlewares/index"
+      ],
+      "@repository": [
+        "src/repository/index"
+      ],
+      "@routes": [
+        "src/routes.ts/index"
+      ],
+      "@utils": [
+        "src/utils/index"
+      ],
+      "@schemas": [
+        "src/schemas/index"
+      ],
+      "@services": [
+        "src/services/index"
+      ]
+    }
+  },
+  "include": [
+    "express.d.ts",
+    "src/**/*.ts",
+    "src/**/*.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "<node_internals>/**"
+  ],  
+}
